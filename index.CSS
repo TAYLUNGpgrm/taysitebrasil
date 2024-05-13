@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(151, 193, 255);
+}
+h1 {
+    font-size: 300%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+    align-items: center;
+    background-color: rgba(0, 191, 255, 0.858);
+    cursor: pointer;
+}
+h2{
+    font-size: 270%;
+    font-family:'Courier New', Courier, monospace;
+    color:blue;
+    size: 20px;
+    cursor: pointer;
+}
+p, .vot{
+    cursor: pointer;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(0, 0, 0);
+}
+.jogo{
+    background-color: orange;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.jogo:hover{
+    background-color: red;
+    transition-duration:1.3s;
+}
+.teste{
+    border-radius:40px;
+    background-color:orangered;
+}
+a:link {
+    background-color: rgb(255, 162, 0);
+    border-radius: 20px;
+}
+a:visited {
+    background-color: rgb(166, 166, 166);
+}
+a:hover {
+    background-color: lightgreen;
+    transition-duration:1.3s;
+}
+a:active {
+    background-color: rgb(0, 168, 168);
+}
+input[type="submit"]{
+    box-sizing: content-box;
+    border-radius: 50px;
+    color:rgb(245, 188, 0);
+    cursor: pointer;
+    background-color:brown;
+    /* Outras propriedades de estilo aqui */
+}
+input[type="submit"]:hover{
+    color:rgb(220, 3, 3);
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+    border-radius: 7px;
+    transition-duration:1.3s;
+    background-color: rgba(0, 255, 229, 0.753);
+} 
+input[type="name"], input[type="password"] {
+    border-radius: 50px;
+    background-color:rgb(255, 47, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input[type="name"], [type="password"]:hover{
+    color:rgb(220, 3, 3);
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+    border-radius: 7px;
+    transition-duration:1.3s;
+    background-color: rgb(0, 251, 255);
+}
+.bongo {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cores {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.yellow {
+    color: yellow;
+}
+.orange {
+    color: orange;
+}
+.white {
+    color: white;
+}
+.brown{
+    color: brown;
+}
+.gold {
+    color: gold;
+}
+.red:hover{
+    cursor:pointer;
+    transition-duration:1.3s;
+    font-size: 20px;
+}
+.blue:hover{
+    cursor:pointer;
+    transition-duration:1.3s;
+    font-size: 20px;
+}
+.yellow:hover{
+    cursor:pointer;
+    transition-duration:1.3s;
+    font-size: 20px;
+}
+.orange:hover{
+    cursor:pointer;
+    transition-duration:1.3s;
+    font-size: 20px;
+}
+.white:hover{
+    cursor:pointer;
+    transition-duration:1.3s;
+    font-size: 20px;
+}
+.brown:hover{
+    cursor:pointer;
+    transition-duration:1.3s;
+    font-size: 20px;
+}
+.gold:hover{
+    cursor:pointer;
+    transition-duration:1.3s;
+    font-size: 20px;
+}
+
+.gold {
+    color: rgb(255, 255, 255);
+    
+}
